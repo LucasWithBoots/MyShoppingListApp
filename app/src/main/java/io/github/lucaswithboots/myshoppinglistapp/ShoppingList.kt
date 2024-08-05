@@ -57,7 +57,7 @@ fun ShoppingListApp(innerPadding: PaddingValues) {
             onClick = { showDialog = true },
             modifier = Modifier.align(Alignment.CenterHorizontally)
         ) {
-            Text(text = "click me!")
+            Text(text = "Add Item!")
         }
 
         LazyColumn(
